@@ -274,6 +274,22 @@ header {
 
 .sticky .main-nav { margin-top: 18px;}
 
+/* MOBILE NAV*/
+
+.mobile-nav-icon {
+    float: right;
+    margin-top: 30px;
+    cursor: pointer;
+    display: none;
+}
+
+.hamburger-menu {
+    font-size: 200%;
+    color: white;
+}
+
+
+
 /* ------------------------------------ */
 /* FEATURES*/
 /* ------------------------------------ */
@@ -603,4 +619,8 @@ footer p {
     color: #888;
     text-align: center;
     margin-top: 20px;
+}
+
+.close-icon {
+    display: none;
 }
